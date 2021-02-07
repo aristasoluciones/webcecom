@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="SemiColonWeb" />
+
+	<!-- Stylesheets
+	============================================= -->
+	<link href="http://fonts.googleapis.com/css?family=Heebo:400,500,700" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- DatePicker CSS -->
+	<link rel="stylesheet" href="css/components/daterangepicker.css" type="text/css" />
+	<!-- Range Slider CSS -->
+	<link rel="stylesheet" href="css/components/ion.rangeslider.css" type="text/css" />
+
+	<!--  Demo cleaner Specific Stylesheet -->
+	<link rel="stylesheet" href="css/colors.php?color=335EEE" type="text/css" /> <!-- Cleaner Theme Color -->
+	<link rel="stylesheet" href="demos/cleaner/css/fonts.css" type="text/css" /> <!-- Cleaner Theme Font -->
+	<link rel="stylesheet" href="demos/cleaner/cleaner.css" type="text/css" /> <!-- Cleaner Theme Custom CSS -->
+	<!-- / -->
+
+	<!-- Document Title
+	============================================= -->
+	<title>CECOM</title>
+
+	<style>
+		.form-group > label.error {
+			display: block !important;
+			text-transform: none;
+		}
+
+		.form-group input.valid ~ label.error,
+		.form-group input[type="text"] ~ label.error,
+		.form-group input[type="email"] ~ label.error,
+		.form-group input[type="number"] ~ label.error,
+		.form-group select ~ label.error { display: none !important; }
+	</style>
+
+</head>
+
+<body class="stretched">
+
+	<!-- Document Wrapper
+	============================================= -->
+	<div id="wrapper" class="clearfix">
+
+		<!-- Top Bar
+		============================================= -->
+		<div id="top-bar">
+			<div class="container">
+
+				<div class="row justify-content-between">
+					<div class="col-12 col-md-auto">
+
+						<!-- Top Links
+						============================================= -->
+						<div class="top-links">
+							<ul class="top-links-container">
+								<li class="top-links-item"><a href="demo-CECOM.html">Home</a></li>
+								<li class="top-links-item"><a href="faqs.html">FAQs</a></li>
+								<li class="top-links-item"><a href="contact.html">Contact</a></li>
+								<li class="top-links-item"><a href="login-register.html"><img src="demos/seo/images/flags/eng.png" alt="Lang">English</a>
+									<ul class="top-links-sub-menu">
+										<li class="top-links-item"><a href="#"><img src="demos/seo/images/flags/fre.png" alt="Lang">French</a></li>
+										<li class="top-links-item"><a href="#"><img src="demos/seo/images/flags/ara.png" alt="Lang">Arabic</a></li>
+										<li class="top-links-item"><a href="#"><img src="demos/seo/images/flags/tha.png" alt="Lang">Thai</a></li>
+									</ul>
+								</li>
+							</ul>
+						</div><!-- .top-links end -->
+
+					</div>
+
+					<div class="col-12 col-md-auto">
+
+						<!-- Top Social
+						============================================= -->
+						<ul id="top-social">
+							<li><a href="#" class="si-facebook"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
+							<li><a href="#" class="si-twitter"><span class="ts-icon"><i class="icon-twitter"></i></span><span class="ts-text">Twitter</span></a></li>
+							<li><a href="#" class="si-dribbble"><span class="ts-icon"><i class="icon-dribbble"></i></span><span class="ts-text">Dribbble</span></a></li>
+							<li><a href="#" class="si-github"><span class="ts-icon"><i class="icon-github-circled"></i></span><span class="ts-text">Github</span></a></li>
+							<li><a href="#" class="si-pinterest"><span class="ts-icon"><i class="icon-pinterest"></i></span><span class="ts-text">Pinterest</span></a></li>
+							<li><a href="#" class="si-instagram"><span class="ts-icon"><i class="icon-instagram2"></i></span><span class="ts-text">Instagram</span></a></li>
+							<li><a href="tel:+91.11.85412542" class="si-call"><span class="ts-icon"><i class="icon-call"></i></span><span class="ts-text">+1.111.222.333</span></a></li>
+							<li><a href="mailto:noreply@canvas.com" class="si-email3"><span class="ts-icon"><i class="icon-envelope-alt"></i></span><span class="ts-text">noreply@canvas.com</span></a></li>
+						</ul><!-- #top-social end -->
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</div><!-- #top-bar end -->
+
+		<!-- Header
+		============================================= -->
+		<header id="header" class="full-header header-size-md border-0" data-sticky-shrink="false">
+
+			<div id="header-wrap">
+				<div class="container-fluid pr-0">
+					<div class="header-row">
+
+						<!-- Logo
+						============================================= -->
+						<div id="logo" class="col col-sm-auto">
+							<a href="demo-CECOM.html" class="standard-logo"><img src="demos/cleaner/images/logocecom.jpg" alt="Canvas Logo"></a>
+							<a href="demo-CECOM.html" class="retina-logo"><img src="demos/cleaner/images/logo@2x.png" alt="Canvas Logo"></a>
+						</div><!-- #logo end -->
+
+						<div id="primary-menu-trigger">
+							<svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
+						</div>
+
+						
+
+						<!-- Primary Navigation
+						============================================= -->
+						<nav class="primary-menu">
+
+							<ul class="menu-container border-right-0 mr-0">
+								<li class="menu-item active">
+									<a class="menu-link" href="demo-CECOM.html"><div>INICIO</div></a>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="demo-CECOM-NOSOTROS.html"><div>NOSOTROS</div></a>
+								</li>
+								<li class="menu-item">
+									<a class="menu-link" href="demo-CECOM-SERVICIOS.html"><div>SERVICIOS</div></a>
+								</li>
+								<!--<li class="menu-item">
+									<a class="menu-link" href="#"><div>FAQs</div></a>
+								</li> -->
+								<li class="menu-item">
+									<a class="menu-link" href="demo-CECOM-CONTACTO.html"><div>CONTACTO</div></a>
+								</li>
+							</ul>
+
+						</nav><!-- #primary-menu end -->
+
+					</div>
+				</div>
+			</div>
+
+			<div class="header-wrap-clone"></div>
+
+		</header><!-- #header end -->
+
+		<!-- Slider
+		============================================= -->
+		<section id="slider" class="slider-element" style="background: url('demos/cleaner/images/main.jpg') center center no-repeat; background-size: cover; height: 700px">
+			<div class="vertical-middle">
+				<div class="container">
+					<div class="row py-5">
+						<div class="col-xl-6 col-lg-5 col-md-2"></div>
+						<div class="col-xl-6 col-lg-7 col-md-10">
+							<div class="slider-title dark">
+								<h1 class=""Style="color:BLACK " >Bienvenidos</h1>
+								<h1 class=""Style="color:BLACK ">Cecom A.C.</h1> 
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="svg-separator">
+				<div>
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2273 390" fill="#FFF"><path d="M0,211.28s373-254,1119-205,765,173,1154,0v384H0Z"/></svg>
+				</div>
+			</div>
+		</section>
+
+		<!-- Content
+		============================================= -->
+		<section id="content">
+
+			<div class="content-wrap pt-5 pb-0">
+
+				<div class="container">
+					<div class="heading-block center mx-auto" style="max-width: 700px">
+						<h2 class="mb-2 nott ls0">Nuestros Servicios</h2>
+						<span>**TEXTO DE RELLENO**</span>
+					</div>
+					<div class="row justify-content-center col-mb-50">
+						<div class="col-md-5">
+							<div class="feature-box mx-0 fbox-small fbox-center border-0">
+								<div class="fbox-img position-relative">
+									<img src="demos/cleaner/images/icons/book.svg" alt="Book Icon" height="160">
+								</div>
+								<h2 class="topmargin-sm h5 mb-3 nott font-weight-semibold ls0"><span>1.</span> Consultoria</h2>
+								<p>Juicio Especial Hipotecario, Tramitación de Juicios Ordenarios, Especiales, Notariales, Supervisión de Contratos.</p>
+								
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="feature-box mx-0 fbox-small fbox-center border-0">
+								<div class="fbox-img position-relative">
+									<img src="demos/cleaner/images/icons/confirm3.svg" alt="Confirm Icon" height="160">
+								</div>
+								<h2 class="topmargin-sm h5 mb-3 nott font-weight-semibold ls0"><span>2.</span> Servicio 2</h2>
+								<p>Presentación y seguimiento de querellas, Asesoría Legal en Accidentes de Tránsito, Defensa a particulares.</p>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="feature-box mx-0 fbox-small fbox-center border-0">
+								<div class="fbox-img position-relative">
+									<img src="demos/cleaner/images/icons/enjoy.svg" alt="Relax Icon" height="160">
+								</div>
+								<h2 class="topmargin-sm h5 mb-3 nott font-weight-semibold ls0"><span>3.</span> Servicio 3</h2>
+								<p>Defensa a funcionarios públicos o cualquier persona física o moral, Integración de Expedientes en procesos Licitatorios.</p>
+                            </div>
+                            <a href="#" class="btn second-bg-color px-3 font-weight-semibold">Contactanos<i class="icon-line-arrow-right"></i></a>  
+                        </div>
+                        
+
+						<div class="col-md-4">
+							<div class="feature-box mx-0 fbox-small fbox-center border-0">
+								<div class="fbox-img position-relative">
+									<img src="demos/cleaner/images/icons/enjoy.svg" alt="Relax Icon" height="160">
+								</div>
+								<h2 class="topmargin-sm h5 mb-3 nott font-weight-semibold ls0"><span>3.</span> PRUEBA 4</h2>
+								<p>Defensa a funcionarios públicos o cualquier persona física o moral, Integración de Expedientes en procesos Licitatorios.</p>
+							</div>
+						</div>
+
+
+
+					</div>
+				</div>
+
+				
+
+		<!-- Footer
+		============================================= -->
+		<footer id="footer" class="border-0 dark bg-color">
+
+			<div class="container">
+
+				<!-- Footer Widgets
+				============================================= -->
+				<div class="footer-widgets-wrap">
+
+					<div class="row">
+						<div class="col-6 col-lg-4">
+							<img class="mb-5" src="demos/cleaner/images/logocecom.jpg" alt="" width="123">
+							<p class="text-white-50">El CECOM realiza estudios, proyectos y capacitaciones que permitan crear capacidades para el diseño, ejecución y evaluación de políticas públicas, programas y proyectos para la gestión del desarrollo local en sus dimensiones del desarrollo social, de género, económico, y de legalidad desde una perspectiva integral y sustentable. Prestamos toda clase de servicios, asesoría y consultoría así como realizar todo tipo de estudios e investigaciones en diverso temas.</p>
+							<div class="clear"></div>
+							<div>
+								<a href="#" class="social-icon mr-2 si-light si-rounded si-small si-facebook">
+									<i class="icon-facebook"></i>
+									<i class="icon-facebook"></i>
+								</a>
+								<a href="#" class="social-icon mr-2 si-light si-rounded si-small si-twitter">
+									<i class="icon-twitter"></i>
+									<i class="icon-twitter"></i>
+								</a>
+								<a href="#" class="social-icon mr-2 si-light si-rounded si-small si-youtube">
+									<i class="icon-youtube"></i>
+									<i class="icon-youtube"></i>
+								</a>
+								<a href="#" class="social-icon si-light si-rounded si-small si-appstore">
+									<i class="icon-apple"></i>
+									<i class="icon-apple"></i>
+								</a>
+							</div>
+						</div>
+						<div class="col-6 col-lg-3">
+							<h4>Features</h4>
+							<ul class="list-unstyled mb-0 text-small">
+								<li class="mb-2"><a href="#" class="text-light">Cool stuff</a></li>
+								<li class="mb-2"><a href="#" class="text-light">Random feature</a></li>
+								<li class="mb-2"><a href="#" class="text-light">Team feature</a></li>
+								<li class="mb-2"><a href="#" class="text-light">Stuff for developers</a></li>
+								<li class="mb-2"><a href="#" class="text-light">Another one</a></li>
+								<li><a href="#" class="text-light">Last time</a></li>
+							</ul>
+						</div>
+						<div class="col-6 col-lg-3 mt-5 mt-lg-0">
+							<h4>Resources</h4>
+							<ul class="list-unstyled mb-0 text-small">
+								<li class="mb-2"><a href="#" class="text-light">Resource</a></li>
+								<li class="mb-2"><a href="#" class="text-light">Resource name</a></li>
+								<li class="mb-2"><a href="#" class="text-light">Another resource</a></li>
+								<li><a href="#" class="text-light">Final resource</a></li>
+							</ul>
+						</div>
+						<div class="col-6 col-lg-2 mt-5 mt-lg-0">
+							<h4>About</h4>
+							<ul class="list-unstyled mb-0 text-small">
+								<li class="mb-2"><a href="#" class="text-light">Team</a></li>
+								<li class="mb-2"><a href="#" class="text-light">Locations</a></li>
+								<li class="mb-2"><a href="#" class="text-light">Privacy</a></li>
+								<li><a class="text-light" href="#">Terms</a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- galeria
+					<div class="footer-widget col-sm-6 col-md-4">
+						<h3>Galeria</h3>
+						<a href="demos/cleaner/images/galeria/IMG_9888.JPG" class="gallery" title="SE. INDICADORES DE OPERACIONES-SARE MTRO. LUIS DE PABLO HERNANDEZ L.">
+							<img src="demos/cleaner/images/galeria/IMG_9888.JPG" alt="Gallery thumbnail">
+						</a>
+						<a href="demos/cleaner/images/galeria/entrega incosur-JOvenes-Em.jpg" class="gallery" title="INCOSUR RECONOCIMIENTO A JOVENES EMPRENDEDORES">
+							<img src="demos/cleaner/images/galeria/entrega incosur-JOvenes-Em.jpg" alt="Gallery thumbnail">
+						</a>
+						<a href="demos/cleaner/images/galeria/20141113_132128.jpg" class="gallery" title="PRESENTACIÓN DE PROYECTO JOVENES EMPRENDEDORES">
+							<img src="demos/cleaner/images/galeria/20141113_132128.jpg" alt="Gallery thumbnail">
+						</a>
+						<a href="demos/cleaner/images/galeria/cap-in-de-lacosta-per-const.JPG" class="gallery" title="CAPACITACIÓN A INGENIEROS DE LA COSTA - REINGENIERIA DE PROCESOS MUNICIPALES">
+							<img src="demos/cleaner/images/galeria/cap-in-de-lacosta-per-const.JPG" alt="Gallery thumbnail">
+						</a>
+						<a href="demos/cleaner/images/galeria/cap-in-de-lacosta-per-const-1.JPG" class="gallery" title="CAPACITACIÓN A INGENIEROS DE LA COSTA TAPACHULA - MEJORA REGULATORÍA">
+							<img src="demos/cleaner/images/galeria/cap-in-de-lacosta-per-const-1.JPG" alt="Gallery thumbnail">
+						</a>
+						<a href="demos/cleaner/images/galeria/IMG_5984.JPG" class="gallery" title="CONSULTORES CECOM A.C.">
+							<img src="demos/cleaner/images/galeria/IMG_5984.JPG" alt="Gallery thumbnail">
+						</a>
+						<a href="demos/cleaner/images/galeria/IMG_5959.JPG" class="gallery" title="REUNION DE TRABAJO, MUNICIPIO DE TAPACHULA - LICENCIA DE CONSTRUCCIÓN">
+							<img src="demos/cleaner/images/galeria/IMG_5959.JPG" alt="Gallery thumbnail">
+						</a>
+						<a href="demos/cleaner/images/galeria/IMG_3962.JPG" class="gallery" title="CAPACITACIÓN A INGENIEROS CIVILES EN TEMAS DE REINGENIERIA DE PROCESOS">
+							<img src="demos/cleaner/images/galeria/IMG_3962.JPG" alt="Gallery thumbnail">
+						</a>
+						<a href="demos/cleaner/images/galeria/20160118_182911.jpg" class="gallery" title="INSTALACIÓN DEL SISTEMA DE APERTURA RAPIDA DE EMPRESAS SARE- MUNICIPIO DE CINTALAPA">
+							<img src="demos/cleaner/images/galeria/20160118_182911.jpg" alt="Gallery thumbnail">
+						</a>
+						<a href="demos/cleaner/images/galeria/IMG_9890.JPG" class="gallery" title="ESTUDIO DE FACTIBILIDAD PARA EL DESARROLLO DE CAPACIDADES EMPRESARIALES EN MUJERES.">
+							<img src="demos/cleaner/images/galeria/IMG_9890.JPG" alt="Gallery thumbnail">
+						</a>
+						<a href="demos/cleaner/images/galeria/IMG_9892.JPG" class="gallery" title="FIRMA DE CONVENIO DE COLABORACIÓN TUXTLA CHICO-CECOM A.C.">
+							<img src="demos/cleaner/images/galeria/IMG_9892.JPG" alt="Gallery thumbnail">
+						</a>
+						<a href="demos/cleaner/images/galeria/IMG_9895.JPG" class="gallery" title="INSTALACIÓN DE CONSEJO MUNICIPAL DE MEJORA REGULATORIA MUNICIPO DE CINTALAPA">
+							<img src="demos/cleaner/images/galeria/IMG_9895.JPG" alt="Gallery thumbnail">
+	
+						</a>
+						 <a href="demos/cleaner/images/galeria/IMG_9900.JPG" class="gallery" title="CONVENIO DE COLABORACIÓN UNACH -CECOM A.C.">
+							<img src="demos/cleaner/images/galeria/IMG_9900.JPG" alt="Gallery thumbnail">
+						</a>
+						<a href="demos/cleaner/images/galeria/IMG_2150.JPG" class="gallery" title="DIAGNÓSTICO SITUACIONAL DEL IMPACTO DE LA MUJER EN LA VIDA LABORAL EN CHIAPAS Y CAPACITACIÓN ESPECIALIZADA.">
+							<img src="demos/cleaner/images/galeria/IMG_2150.JPG" alt="Gallery thumbnail">
+						</a>
+						<a href="demos/cleaner/images/galeria/IMG_9893.JPG" class="gallery" title="SENSIBILIZACIÓN EN TEMAS DE EMPRENDIMIENTO">
+							<img src="demos/cleaner/images/galeria/IMG_9893.JPG" alt="Gallery thumbnail">
+						</a>
+						<a href="demos/cleaner/images/galeria/IMG_9886.JPG" class="gallery" title="RECONOCIMIENTOS CECOM A.C.">
+							<img src="demos/cleaner/images/galeria/IMG_9886.JPG" alt="Gallery thumbnail">
+						</a>
+						<div class="visible-xs-block visible-sm-block pt20"></div>
+
+					--></div><!-- .footer-widgets-wrap end -->
+
+			</div>
+			<!-- Copyrights
+			============================================= -->
+			<div id="copyrights" class="dark">
+
+				<div class="container">
+
+					<div class="row align-items-center justify-content-between">
+						<div class="col-md-6 text-white-50">
+							Copyrights &copy; 2014 All Rights Reserved by Canvas Inc.<br>
+							<div class="copyright-links"><a href="#" class="text-white-50">Terms of Use</a> / <a href="#" class="text-white-50">Privacy Policy</a></div>
+						</div>
+
+						<div class="col-md-6 d-flex justify-content-md-end mt-4 mt-md-0">
+							<div class="copyrights-menu copyright-links mb-0 clearfix">
+								<a href="#" class="text-white-50">Home</a>/<a href="#" class="text-white-50">About Us</a>/<a href="#" class="text-white-50">Price</a>/<a href="#" class="text-white-50">Contact</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div><!-- #copyrights end -->
+
+		</footer><!-- #footer end -->
+
+	</div><!-- #wrapper end -->
+
+	<!-- Go To Top
+	============================================= -->
+	<div id="gotoTop" class="icon-angle-up rounded-circle bg-color h-bg-dark"></div>
+
+	<!-- External JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+	<!-- DatePicker JS -->
+	<script src="js/components/moment.js"></script>
+	<script src="js/components/daterangepicker.js"></script>
+
+	<!-- Range Slider Plugin -->
+	<script src="js/components/rangeslider.min.js"></script>
+
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
+
+	
+
+</body>
+</html>
